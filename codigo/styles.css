@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: rgba(0, 0, 0, 0.87);
+
+}
+
+/* Navegagação */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+/* Cabeçalho */
+
+header{
+    height: 200px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+
+header h1{
+    font-size: 65px;
+}
+
+/* Corpo principal */
+
+
+

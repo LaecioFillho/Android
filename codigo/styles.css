@@ -2,6 +2,11 @@
 
 /* Fontes */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+@font-face{
+    font-family: 'Robo';
+    
+
+}
 
 
 *{
@@ -48,5 +53,25 @@ header h1{
 
 /* Corpo principal */
 
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.corpo1 h2{
+    margin: 20px;
+
+}
+.corpo1{
+    background-color: rgba(28, 228, 28, 0.856);
+    max-width: 1100px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.corpo1 p{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
 
 

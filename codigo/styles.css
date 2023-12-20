@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
 @font-face{
     font-family: 'Robo';
-    
+    src: url(fontes/idroid.otf) format('opentype'); font-weight: normal;
 
 }
 
@@ -26,6 +26,7 @@ nav{
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav a{
@@ -59,7 +60,9 @@ main{
 }
 
 .corpo1 h2{
-    margin: 20px;
+    margin: 15px;
+    font-family: 'Heebo', sans-serif;
+
 
 }
 .corpo1{

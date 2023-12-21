@@ -8,6 +8,7 @@
 
 }
 
+/* Gerais */
 
 *{
     margin: 0px;
@@ -15,22 +16,34 @@
 }
 
 :root{
-    --cor1: rgba(0, 0, 0, 0.87);
+    --cor1: rgba(0, 0, 0, 0.925);
+    --cor2: rgb(139, 248, 88);
+}
 
+p{
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(23, 71, 8);
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
 }
 
 /* Navegagação */
 
 nav{
-    background-color: rgba(0, 0, 0, 0.87);
-    color: white;
+    background-color: var(--cor1);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 nav a{
-    margin: 5px 20px;
+    margin: 5px 1.8%; 
     text-decoration: none;
     color: greenyellow;
     font-size: 20px;
@@ -49,7 +62,8 @@ header{
 }
 
 header h1{
-    font-size: 65px;
+    font-size: 400%;
+    text-align: center;
 }
 
 /* Corpo principal */
@@ -57,16 +71,18 @@ header h1{
 main{
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
 
 .corpo1 h2{
     margin: 15px;
     font-family: 'Heebo', sans-serif;
-
-
 }
+
 .corpo1{
     background-color: rgba(28, 228, 28, 0.856);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
     max-width: 1100px;
     min-width: 300px;
     padding: 20px;
@@ -75,6 +91,24 @@ main{
 .corpo1 p{
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
+    padding: 20px;
+}
+
+.extra{
+    background-color:rgba(128, 128, 128, 0.589);
+    max-width: 900px;
+    min-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: var(--cor1);
+    height: 50px;
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
 
 
